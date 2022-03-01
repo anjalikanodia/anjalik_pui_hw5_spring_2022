@@ -228,6 +228,13 @@ button {
   border-radius: 16px;
 }
 
+.button_variant {
+    color: #000000;
+    font-weight: 300;
+    background-color: white;
+    border: 1px solid #000000;
+  }
+  
 
 /* Header */
 .header {
@@ -372,4 +379,14 @@ button {
   height: 23px;
   background: white;
   border: 1px solid #BB0000;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.a_black {
+    color: black;
+    text-decoration: none;
 }

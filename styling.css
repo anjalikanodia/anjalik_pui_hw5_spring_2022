@@ -230,6 +230,7 @@ p {
   padding-right: 30px;
   padding-top: 7px;
   padding-bottom: 7px;
+  text-align: center;
 }
 
 .button_variant {
@@ -256,9 +257,13 @@ p {
   display: inline;
 }
 
-.header_right {
+#header_right {
   float: right;
   margin-right: 40px;
+  padding: 0px;
+  height: 40px;
+  width: 144px;
+  text-align: center;
 }
 
 .department_spacing {
@@ -379,10 +384,13 @@ p {
   margin-top: 30px;
 }
 
-.column_right {
+#column_right {
   float: right;
-  margin-right: 60px;
-  margin-top: 30px;
+  right: 60px;
+  height: 40px;
+  width: 144px;
+  text-align: center;
+  padding: 0;
 }
 
 .section_circle {

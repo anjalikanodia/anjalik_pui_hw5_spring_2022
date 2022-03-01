@@ -216,7 +216,7 @@ p {
   color: #939393;
 }
 
-button {
+.button {
   height: 40px;
   width: 144px;
   background-color: #BB0000;
@@ -226,14 +226,27 @@ button {
   font-weight: bold;
   border: none;
   border-radius: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .button_variant {
-    color: #000000;
-    font-weight: 300;
+    height: 40px;
+    width: 144px;
     background-color: white;
+    color: black;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
     border: 1px solid #000000;
-  }
+    border-radius: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
   
 
 /* Header */
